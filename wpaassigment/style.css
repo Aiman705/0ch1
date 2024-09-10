@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-size: cover;
+}
+
+header {
+    background-color: #2e8b57; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.running-text {
+    font-size: 20px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: led-marquee 8s linear infinite;
+    text-shadow: 0 0 10px #2e8b57, 0 0 20px #2e8b57, 0 0 30px #2e8b57, 0 0 40px #90ee90, 0 0 70px #90ee90, 0 0 80px #90ee90, 0 0 100px #90ee90, 0 0 150px #90ee90;
+}
+
+.led-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: #2e8b57;
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 30px #2e8b57,
+        0 0 40px #2e8b57,
+        0 0 50px #2e8b57,
+        0 0 60px #2e8b57;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes led-marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #32cd32; 
+    font-size: 18px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(145deg, #2e8b57, #3c9b77);
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(145deg, #3c9b77, #2e8b57);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    background: linear-gradient(145deg, #2e8b57, #3c9b77);
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-box {
+    border: 2px solid #4CAF50; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; 
+}
+
+.section-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

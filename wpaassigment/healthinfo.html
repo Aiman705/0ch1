@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Info</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('health.jpg');
+            background-repeat: no-repeat;
+        }
+        h2 {
+        text-align: center;
+        }
+        .section-box {
+            border: 2px solid #4CAF50; 
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff; 
+        }
+        .section-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button-container button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button-container button:hover {
+            background-color: #45a049; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Health Information</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Nutrition and Health Advice</h2>
+            <div class="section-box">
+                
+
+                <!-- Underweight -->
+                <h3>Underweight</h3>
+                <img src="under.jpeg" alt="Underweight Nutrition Guide">
+                <p><strong>Way of Eating:</strong> Focus on nutrient-dense foods like nuts, seeds, avocados, and whole grains. Include protein-rich foods like lean meats, beans, and dairy to help build muscle mass. Avoid empty-calorie foods like sugary snacks and sodas.</p>
+                <p><strong>Healthy Lifestyle:</strong> Engage in strength-training exercises to build muscle mass. Aim for small, frequent meals throughout the day to increase calorie intake.</p>
+                <p><strong>Health Tips:</strong> Monitor your calorie intake to ensure you're eating enough. Consult with a healthcare provider to rule out any underlying health issues that might be causing low body weight.</p>
+            </div>
+
+            <!-- Normal weight -->
+            <div class="section-box">
+                <h3>Normal Weight</h3>
+                <img src="normal.jpeg" alt="Normal Weight Balanced Diet">
+                <p><strong>Way of Eating:</strong> Maintain a balanced diet with a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Pay attention to portion sizes to avoid overeating.</p>
+                <p><strong>Healthy Lifestyle:</strong> Regular physical activity, such as a mix of cardiovascular exercises and strength training, can help maintain your weight and overall health.</p>
+                <p><strong>Health Tips:</strong> Continue regular health check-ups to monitor your well-being. Stay hydrated and aim for at least 7-8 hours of sleep per night to maintain overall health.</p>
+            </div>
+
+            <!-- Overweight -->
+            <div class="section-box">
+                <h3>Overweight</h3>
+                <img src="over.jpeg" alt="Overweight Healthy Lifestyle">
+                <p><strong>Way of Eating:</strong> Focus on reducing calorie intake while maintaining a balanced diet. Opt for high-fiber foods such as vegetables, fruits, and whole grains that keep you full longer. Limit intake of sugary drinks and high-fat foods.</p>
+                <p><strong>Healthy Lifestyle:</strong> Increase physical activity with regular exercise. Aim for at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity per week, along with strength training.</p>
+                <p><strong>Health Tips:</strong> Monitor your weight and set realistic goals for gradual weight loss. Keep a food journal to track your eating habits and identify areas for improvement.</p>
+            </div>
+
+            <!-- Obesity Class 1 (Moderate Obesity) -->
+            <div class="section-box">
+                <h3>Obesity Class 1 (Moderate Obesity)</h3>
+                <img src="obes1.jpeg" alt="Moderate Obesity Diet">
+                <p><strong>Way of Eating:</strong> Prioritize a diet rich in vegetables, fruits, lean proteins, and whole grains. Reduce portion sizes and avoid processed foods high in sugar and unhealthy fats.</p>
+                <p><strong>Healthy Lifestyle:</strong> Increase physical activity and consider working with a fitness professional to create a sustainable exercise plan. Focus on long-term lifestyle changes rather than quick fixes.</p>
+                <p><strong>Health Tips:</strong> Regular health screenings are essential to monitor conditions like high blood pressure, diabetes, and cholesterol levels. Consider consulting with a nutritionist or dietitian for personalized advice.</p>
+            </div>
+
+            <!-- Obesity Class 2 (Severe Obesity) -->
+            <div class="section-box">
+                <h3>Obesity Class 2 (Severe Obesity)</h3>
+                <img src="obes2.png" alt="Severe Obesity Advice">
+                <p><strong>Way of Eating:</strong> Adopt a low-calorie, nutrient-dense diet. Avoid high-calorie, low-nutrient foods, and focus on whole foods like vegetables, lean meats, and whole grains. Meal planning and portion control are key.</p>
+                <p><strong>Healthy Lifestyle:</strong> Engage in regular physical activity but start slowly if you're not used to exercising. Seek support from a healthcare provider or weight-loss program to help guide your journey.</p>
+                <p><strong>Health Tips:</strong> Regular medical monitoring is crucial. Consider behavioral therapy or counseling to address emotional eating and other underlying factors contributing to weight gain.</p>
+            </div>
+
+            <!-- Obesity Class 3 (Very Severe or Morbid Obesity) -->
+            <div class="section-box">
+                <h3>Obesity Class 3 (Very Severe or Morbid Obesity)</h3>
+                <img src="obes3.jpeg" alt="Morbid Obesity Diet and Exercise">
+                <p><strong>Way of Eating:</strong> Work closely with a healthcare provider to develop a safe and effective weight-loss plan. Focus on a diet that is low in calories but high in essential nutrients. Avoid fad diets and aim for sustainable changes.</p>
+                <p><strong>Healthy Lifestyle:</strong> Start with gentle exercises like walking or swimming to reduce strain on joints. Gradually increase activity levels as you build endurance. Consider seeking support from weight-loss groups or a personal trainer.</p>
+                <p><strong>Health Tips:</strong> Regular monitoring for obesity-related health issues such as heart disease, diabetes, and sleep apnea is essential. Bariatric surgery may be an option for some; discuss this with your healthcare provider.</p>
+            </div>
+        </section>
+        <div class="button-container">
+            <button onclick="window.location.href='homepage.html'">Go to Home</button>
+            <button onclick="window.location.href='bmi.html'">Go to BMI Calculator</button>
+        </div>
+    </main>
+</body>
+</html>

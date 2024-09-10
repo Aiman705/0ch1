@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Info</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Health Information</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Nutrition and Health Advice</h2>
+
+            <!-- Underweight -->
+            <h3>Underweight</h3>
+            <img src="https://www.example.com/path_to_underweight_image.jpg" alt="Underweight Nutrition Guide">
+            <p>
+                <strong>Way of Eating:</strong> Focus on nutrient-dense foods like nuts, seeds, avocados, and whole grains. Include protein-rich foods like lean meats, beans, and dairy to help build muscle mass. Avoid empty-calorie foods like sugary snacks and sodas.
+            </p>
+            <p>
+                <strong>Healthy Lifestyle:</strong> Engage in strength-training exercises to build muscle mass. Aim for small, frequent meals throughout the day to increase calorie intake.
+            </p>
+            <p>
+                <strong>Health Tips:</strong> Monitor your calorie intake to ensure you're eating enough. Consult with a healthcare provider to rule out any underlying health issues that might be causing low body weight.
+            </p>
+
+            <!-- Normal weight -->
+            <h3>Normal Weight</h3>
+            <img src="https://www.example.com/path_to_normal_weight_image.jpg" alt="Normal Weight Balanced Diet">
+            <p>
+                <strong>Way of Eating:</strong> Maintain a balanced diet with a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Pay attention to portion sizes to avoid overeating.
+            </p>
+            <p>
+                <strong>Healthy Lifestyle:</strong> Regular physical activity, such as a mix of cardiovascular exercises and strength training, can help maintain your weight and overall health.
+            </p>
+            <p>
+                <strong>Health Tips:</strong> Continue regular health check-ups to monitor your well-being. Stay hydrated and aim for at least 7-8 hours of sleep per night to maintain overall health.
+            </p>
+
+            <!-- Overweight -->
+            <h3>Overweight</h3>
+            <img src="https://www.example.com/path_to_overweight_image.jpg" alt="Overweight Healthy Lifestyle">
+            <p>
+                <strong>Way of Eating:</strong> Focus on reducing calorie intake while maintaining a balanced diet. Opt for high-fiber foods such as vegetables, fruits, and whole grains that keep you full longer. Limit intake of sugary drinks and high-fat foods.
+            </p>
+            <p>
+                <strong>Healthy Lifestyle:</strong> Increase physical activity with regular exercise. Aim for at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity per week, along with strength training.
+            </p>
+            <p>
+                <strong>Health Tips:</strong> Monitor your weight and set realistic goals for gradual weight loss. Keep a food journal to track your eating habits and identify areas for improvement.
+            </p>
+
+            <!-- Obesity Class 1 (Moderate Obesity) -->
+            <h3>Obesity Class 1 (Moderate Obesity)</h3>
+            <img src="https://www.example.com/path_to_moderate_obesity_image.jpg" alt="Moderate Obesity Diet">
+            <p>
+                <strong>Way of Eating:</strong> Prioritize a diet rich in vegetables, fruits, lean proteins, and whole grains. Reduce portion sizes and avoid processed foods high in sugar and unhealthy fats.
+            </p>
+            <p>
+                <strong>Healthy Lifestyle:</strong> Increase physical activity and consider working with a fitness professional to create a sustainable exercise plan. Focus on long-term lifestyle changes rather than quick fixes.
+            </p>
+            <p>
+                <strong>Health Tips:</strong> Regular health screenings are essential to monitor conditions like high blood pressure, diabetes, and cholesterol levels. Consider consulting with a nutritionist or dietitian for personalized advice.
+            </p>
+
+            <!-- Obesity Class 2 (Severe Obesity) -->
+            <h3>Obesity Class 2 (Severe Obesity)</h3>
+            <img src="https://www.example.com/path_to_severe_obesity_image.jpg" alt="Severe Obesity Advice">
+            <p>
+                <strong>Way of Eating:</strong> Adopt a low-calorie, nutrient-dense diet. Avoid high-calorie, low-nutrient foods, and focus on whole foods like vegetables, lean meats, and whole grains. Meal planning and portion control are key.
+            </p>
+            <p>
+                <strong>Healthy Lifestyle:</strong> Engage in regular physical activity but start slowly if you're not used to exercising. Seek support from a healthcare provider or weight-loss program to help guide your journey.
+            </p>
+            <p>
+                <strong>Health Tips:</strong> Regular medical monitoring is crucial. Consider behavioral therapy or counseling to address emotional eating and other underlying factors contributing to weight gain.
+            </p>
+
+            <!-- Obesity Class 3 (Very Severe or Morbid Obesity) -->
+            <h3>Obesity Class 3 (Very Severe or Morbid Obesity)</h3>
+            <img src="https://www.example.com/path_to_morbid_obesity_image.jpg" alt="Morbid Obesity Diet and Exercise">
+            <p>
+                <strong>Way of Eating:</strong> Work closely with a healthcare provider to develop a safe and effective weight-loss plan. Focus on a diet that is low in calories but high in essential nutrients. Avoid fad diets and aim for sustainable changes.
+            </p>
+            <p>
+                <strong>Healthy Lifestyle:</strong> Start with gentle exercises like walking or swimming to reduce strain on joints. Gradually increase activity levels as you build endurance. Consider seeking support from weight-loss groups or a personal trainer.
+            </p>
+            <p>
+                <strong>Health Tips:</strong> Regular monitoring for obesity-related health issues such as heart disease, diabetes, and sleep apnea is essential. Bariatric surgery may be an option for some; discuss this with your healthcare provider.
+            </p>
+        </section>
+        <div class="button-container">
+            <button onclick="window.location.href='index.html'">Go to Home</button>
+            <button onclick="window.location.href='bmi.html'">Go to BMI Calculator</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Health Awareness</p>
+    </footer>
+</body>
+</html>
