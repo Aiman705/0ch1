@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/premium-vector/woman-jogging-overweight-girl-running-sport-activity-training-workout-weight-loss-concept-summer-park-landscape-background-flat-full-length-horizontal_48369-27050.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57; /* Dark Sea Green */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.running-text {
+    font-size: 20px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: led-marquee 8s linear infinite;
+    text-shadow: 0 0 10px #2e8b57, 0 0 20px #2e8b57, 0 0 30px #2e8b57, 0 0 40px #90ee90, 0 0 70px #90ee90, 0 0 80px #90ee90, 0 0 100px #90ee90, 0 0 150px #90ee90;
+}
+
+.led-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: #2e8b57;
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 30px #2e8b57,
+        0 0 40px #2e8b57,
+        0 0 50px #2e8b57,
+        0 0 60px #2e8b57;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes led-marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #32cd32; /* Lime Green */
+    font-size: 18px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #2e8b57;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #2e8b57; /* Dark Sea Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #90ee90; /* Light Green */
+}

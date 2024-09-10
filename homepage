@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Awareness</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Health Awareness</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We aim to raise health awareness among the Alpha Generation. Learn more about healthy habits and how to calculate your BMI.</p>
+        </section>
+        <div class="button-container">
+            <button onclick="window.location.href='healthinfo.html'">Go to Health Info</button>
+            <button onclick="window.location.href='bmi.html'">Go to BMI Calculator</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Health Awareness</p>
+    </footer>
+</body>
+</html>
